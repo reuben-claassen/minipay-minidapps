@@ -1,4 +1,3 @@
-import PayTokenFunctionCall from "./dApps/PayTokenFunctionCall";
 import TransferCUSD from "./dApps/TransferCUSD";
 
 export default function App() {
@@ -10,10 +9,11 @@ export default function App() {
                 flexDirection: "column",
                 alignItems: "center",
                 gap: "12px",
+                backgroundColor:"#FFFED3",
+                height: "100vh"
             }}
         >
             <TransferCUSD />
-            <PayTokenFunctionCall />
         </div>
     );
 }
